@@ -10,7 +10,7 @@ int main()
     printf("Enter your Country of Residance : ");//Get user country
     scanf("%c",&country);
     printf("Enter your Age : ");//Get user Age
-    printf("%d",&age);
+    scanf("%d",&age);
     printf("Rate your programmings skills from A-D (A being the highest and D being the lowest : ");//Get user skill level
     scanf(" %c",&skill);
     scanf("Thank you %c Happy Hacking",country);//Thank the user
